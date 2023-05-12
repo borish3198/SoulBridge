@@ -27,8 +27,8 @@ public class ResultService {
 
     private final String uri = "https://api.openai.com/v1/chat/completions";
     private final String token = "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";
-    private final String header = "나는 기독교 상담 코치이고 내담자가 이런 고민거리를 이야기했어. 고민 : ";
-    private final String templet = " 공감과 위로를 먼저 해주고 그 다음으로 보편적인 기독교적 교리 기반으로 내담자가 처한 상황과 비슷한 성경의 말씀을 하나 찾아서 알려줘 그리고 조언을 해주면 좋을 것 같아. 단, 이단에 대한 내용은 답변이 어렵다고하고 한국기독교총회에 문의하라는 답을 해줘. 그리고 특정인물이나 특정 집단에 대한 평가에도 답변이 어렵다고 해. 해당 내용으로 답장을 써줄래?";
+    private final String header = "너는 기독교 상담 코치이고 내담자가 이런 고민거리를 이야기할거야. 공감과 위로를 해주고, 보편적인 기독교적 교리 기반으로 내담자가 처한 상황과 비슷한 성경의 말씀을 하나 찾아서 알려준 뒤 조언을 해주면 좋을 것 같아. 단, 고민 내용이 이단에 관한 내용이면 답변이 어렵다고하고 한국기독교총회에 문의하라는 답을 해줘. 그리고 특정인물이나 특정 집단에 대한 평가에도 답변이 어렵다고 해야해";
+    private final String templet = " ";
 
 
     public String getAdvice(String worries) {
@@ -47,9 +47,14 @@ public class ResultService {
         body.put("model", "gpt-3.5-turbo");
 
         JSONArray messages = new JSONArray();
+        JSONObject system = new JSONObject();
+        system.put("role", "system");
+        system.put("content", header);
+        messages.add(system);
+
         JSONObject message = new JSONObject();
         message.put("role", "user");
-        message.put("content", header + worries + templet);
+        message.put("content", worries);
         messages.add(message);
 
         body.put("messages", messages);
