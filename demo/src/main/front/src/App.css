@@ -1,0 +1,63 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 20vh 20vh 20vh 20vh; /* 20% vertical padding, 20px horizontal padding */
+  box-sizing: border-box;
+  text-align: center;
+  overflow: auto;
+}
+
+h1 {
+  font-size: 5vw;
+  margin-bottom: 2vh;
+}
+
+.logo {
+  width: auto; 
+  height: 10vh; /* Adjusted height to account for the added padding */
+  max-width: 50%; 
+  object-fit: contain; 
+  margin-bottom: 2vh;
+}
+
+.record-btn, .send-btn {
+  padding: 1vw 2vw;
+  margin: 1vh 0;
+  font-size: 2vw;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.record-btn {
+  background-color: #f00;
+}
+
+.send-btn {
+  background-color: #00f;
+}
+
+.send-btn:disabled {
+  background-color: #aaa;
+  cursor: default;
+}
+
+/* You can use a media query to adjust styles for larger screens */
+@media screen and (min-width: 600px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  .logo {
+    height: 200px; /* Adjusted height for larger screens */
+  }
+
+  .record-btn, .send-btn {
+    padding: 15px 30px;
+    font-size: 1rem;
+  }
+}
