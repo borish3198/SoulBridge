@@ -1,0 +1,2 @@
+.container{align-items:center;box-sizing:border-box;display:flex;flex-direction:column;height:100vh;justify-content:center;padding:0 20px;text-align:center}.logo,h1{margin-bottom:20px}.logo{max-width:500px;width:100%}.record-btn,.send-btn{border:none;border-radius:5px;color:#fff;cursor:pointer;font-size:18px;margin:10px 0;padding:10px 20px}.record-btn{background-color:red}.send-btn{background-color:#00f}.send-btn:disabled{background-color:#aaa;cursor:default}
+/*# sourceMappingURL=main.64566442.css.map*/
