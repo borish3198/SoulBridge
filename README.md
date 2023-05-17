@@ -1,2 +1,27 @@
-# SoulBridge
-Religious Personal Counsellor using OpenAI API
+# SoulBridge[Side Project]
+
+---
+
+![KakaoTalk_Image_2023-05-07-22-57-18.png](SoulBridge%5BSide%20Project%5D%2037bf15c3772049b08b0ce595103a2b5d/KakaoTalk_Image_2023-05-07-22-57-18.png)
+
+# 개요
+
+음성으로 본인의 고민을 이야기하면 ChatGPT를 통해 성경을 기반으로 고민에 도움이 되는 답변을 제공하는 모바일 기반 웹 서비스
+
+**목표** : MVP (디자인 기능 제외, 기본 제공 UI 활용)
+
+**결과** : Spring Boot 기반 OpenAI API를 활용한 웹서비스
+
+**기술 스택 :** `서버 : ubuntu(AWS)`, `백엔드 : Spring Boot, MySQL`, `프론트 : React ~~vs React Native~~`
+
+# 프로젝트 진행 결과
+
+링크 : [https://www.soulbridge.me](https://www.soulbridge.me)
+
+![**1. 메인 화면**](SoulBridge%5BSide%20Project%5D%2037bf15c3772049b08b0ce595103a2b5d/%25E1%2584%2589%25E1%2585%25B3%25E1%2584%258F%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25AB%25E1%2584%2589%25E1%2585%25A3%25E1%2586%25BA_2023-05-17_%25E1%2584%258B%25E1%2585%25A9%25E1%2584%2592%25E1%2585%25AE_7.14.45.png)
+
+**1. 메인 화면**
+
+![**2. 결과 화면**](SoulBridge%5BSide%20Project%5D%2037bf15c3772049b08b0ce595103a2b5d/%25E1%2584%2589%25E1%2585%25B3%25E1%2584%258F%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25AB%25E1%2584%2589%25E1%2585%25A3%25E1%2586%25BA_2023-05-17_%25E1%2584%258B%25E1%2585%25A9%25E1%2584%2592%25E1%2585%25AE_7.13.42.png)
+
+**2. 결과 화면**
