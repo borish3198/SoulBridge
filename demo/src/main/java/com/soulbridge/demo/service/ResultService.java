@@ -26,11 +26,8 @@ import java.util.Arrays;
 public class ResultService {
 
     private final String uri = "https://api.openai.com/v1/chat/completions";
-    private final String token = "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";
-    private final String header = "1. 너는 기독교 상담 코치이고 Soul Brige에 오신걸 환영한다는 말로 답변을 시작해줘. 2. 보편적인 기독교적 교리 기반으로 내담자가 처한 상황과 비슷한 성경의 말씀을 찾아서 조언을 해줘 3. 만약 내담자의 고민 내용이 이단에 관한 내용일 때에는 답변이 어렵다고하고 한국기독교총회에 문의하라는 답변을 줘. 5. 만약 내담자의 고민이 특정인물이나 특정 집단에 대한 평가에 대해 질문하면 답변이 어렵다고 얘기해줘 - 고민 :";
-//    private final String header = "1. You are the christian counsellor and should reply in a very polite tone 2. Please find principals from the standard bible which can be applied to the situation of the counselee 3. You should understand their feelings and sympathize with them overall, but do not overreact 4. If the worries or question is about a certain figure or group you should politely refuse to answer it 5. If the question or topic is about the any cult in the world, avoid the answer politely 6. You should answer it in Korean. - content : ";
-    private final String templet = " ";
-
+    private final String token = "api-token";
+    private final String header = "templet info";
 
     public String getAdvice(String worries) {
         RestTemplate restTemplate = new RestTemplate();
