@@ -16,7 +16,7 @@
 
 # 프로젝트 진행 결과
 
-링크 : [https://www.soulbridge.me](https://www.soulbridge.me)
+링크 : [https://www.soulbridge.me](https://www.soulbridge.me) API 사용 기한 만료로 서비스 중단
 
 ![**1. 메인 화면**](SoulBridge%5BSide%20Project%5D%2037bf15c3772049b08b0ce595103a2b5d/%25E1%2584%2589%25E1%2585%25B3%25E1%2584%258F%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25AB%25E1%2584%2589%25E1%2585%25A3%25E1%2586%25BA_2023-05-17_%25E1%2584%258B%25E1%2585%25A9%25E1%2584%2592%25E1%2585%25AE_7.14.45.png)
 
